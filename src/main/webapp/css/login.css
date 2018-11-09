@@ -1,0 +1,67 @@
+@charset "utf-8";
+body{
+	 color:#333;
+	background:url(../img/login.png)no-repeat; 
+}
+.title{text-align:center;vertical-align:bottom;font-size:35px;font-weight:bold;font-family: "微软雅黑";}
+#loginarea{font-size:25px;padding:25px;width:600px; margin:auto;background-color: rgb(226,230,233);border-style: solid;border-color:rgb(27,64,134);border-width: 2px;}
+#all{margin:3% auto;}
+#ukloginbtn,#loginbtn{width:120px;height:45px;font-size: 25px;/* margin-left:15%; */}
+#login{margin-top: 30px;}
+.form-group{margin-top:30px;margin-left:80px; text-align: center;}
+.form-control{height:50px;font-size: 25px;width:400px;}
+.img-responsive{margin: auto;}
+#ukloginbtn{
+	margin-left:40%;
+}
+.modal {
+	width:800px;
+	height:450px;
+    position: absolute;
+    left: 30%;
+    top: 25%;
+    bottom: 0;
+    background: rgba(204,232,255, .5);
+    z-index: 999;
+    display:none;
+}
+.modal-dialog {
+    width: 370px;
+    margin: 100px auto;
+}
+.modal-content {
+    background: #fff;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #aaa;
+    padding: 16px 12px 10px 60px;
+		background: rgb(240,255,255);
+}
+.modal-content img{
+		width:120px;
+		height:120px;
+		margin-left:50px;
+}
+.modal-content h4 {
+    font-size: 35px;
+		color:#333;
+}
+.modal-content h4 span{
+		display:inline-block;
+   width:42px;
+		height:24px;
+}
+div.close {
+    position: absolute;
+    top: -100px;
+    left: 556px;
+    z-index: 2;
+    width: 26px;
+    height: 26px;
+    background: #555;
+    text-align: center;
+    line-height: 26px;
+    color: #fff;
+    cursor: pointer;
+    font-size: 26px;
+} 

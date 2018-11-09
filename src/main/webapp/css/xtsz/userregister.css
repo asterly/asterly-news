@@ -1,0 +1,49 @@
+@CHARSET "UTF-8";
+@charset "utf-8";
+.a2 {
+	background-color: #e0ffff;
+}
+#btns{
+	left:90%;
+	bottom:35px;
+}
+#modal1,#modal2 {
+	width: 80%;
+	height: 90%;
+	display: none;
+	margin: 0 auto;
+}
+
+#chooseid,#chooseidxg{
+	width: 100%;
+	height: 40%;
+	border: 1px solid #ccc;
+	padding: 5px;
+}
+
+#chooseul li,#chooseulxg li {
+	float: left:  
+		font-size:18px;
+	list-style: none;
+}
+
+.modal-content {
+	height: 92%;
+}
+
+input[type=checkbox] {
+	margin: 0 10px 0 0;
+}
+
+#btn4 {
+	margin-left: 67%;
+}
+
+#thead-tab5 {
+	background: #ADD8E6;
+}
+
+.barcon {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}

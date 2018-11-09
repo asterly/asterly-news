@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>  
+ <methods>
+ 	<method >
+ 		<sql id="queryMethod">select * from ss_usertest</sql>
+ 	</method>
+ 	<method >
+ 		<sql id="insert">insert into ss_usertest values("123","456",user.getId)</sql>
+ 	</method>
+ 	 <method >
+ 		<sql id="update">insert into ss_usertest values("123","456",user.getId())</sql>
+ 	</method>
+	<method>
+		<sql id="login">select * from ss_usertest where +getUserNameType(user.getUsername())=\\'+user.getUsername()+\\' and password =\\'"+user.getPassword()+\\'</sql>
+	</method>
+ </methods>
