@@ -7,8 +7,8 @@ import com.zbxh.swsrv.utils.XMLToJSON;
 public class DeptService implements BaseService<Department> {
 
 	@Override
-	public boolean addition(Department t) {
-		String sql="";
+	public boolean addition(Department dept) {
+		String sql="insert into ss_department() values("+dept.getDepartment()+")";
 		return XMLToJSON.excueteSql(sql, GetQueryMethod.getInsertMethod());
 	}
 
@@ -16,6 +16,7 @@ public class DeptService implements BaseService<Department> {
 	@Override
 	public boolean update(Department t) {
 		// TODO Auto-generated method stub
+		
 		return false;
 	}
 

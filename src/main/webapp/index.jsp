@@ -55,5 +55,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			</div>
 		</div>
 	</div>
+	<script type="text/javascript">
+		if("${msg}"!=null){
+			alert("${msg}")
+		}
+	</script>
 </body>
 </html>

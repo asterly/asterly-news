@@ -44,10 +44,12 @@ public class UserController implements BaseController<User>{
 		if(userinfo!=null) {
 			/*将用户信息 存入 session*/
 			request.getSession().setAttribute("userinfo", user);
+			System.out.println("成功");
 			model.addAttribute("msg", "登录成功");
 			return "ui/main";
 		}else {
 			model.addAttribute("msg", "登录失败");
+			System.out.println("失败");
 			return "../index";
 		}
 		
